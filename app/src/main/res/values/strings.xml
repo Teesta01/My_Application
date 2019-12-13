@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="forgot_password_txt">Enter the email address you used to create your account and we will email you a link to reset your password</string>
+    <string name="apparel_accessories">Apparel Accessories</string>
+    <string name="apparel_for_men">Apparel for Men</string>
+    <string name="apparel_for_women">Apparel for Women</string>
+    <string name="automobile_and_motorcycles">Automobile and Motorcycles</string>
+    <string name="beauty_and_health">Beauty and Health</string>
+    <string name="cellphones">Cellphones</string>
+    <string name="computer_and_office">Computer and Office</string>
+    <string name="consumer_electronics">Consumer Electronics</string>
+    <string name="electronic_components">Electronic Components</string>
+    <string name="furniture">Furniture</string>
+    <string name="home_and_garden">Home and Garden</string>
+    <string name="home_appliances">Home Appliances</string>
+    <string name="jewelry_and_accessories">Jewelry and Accessories</string>
+    <string name="luggage_and_bags">Luggage and Bags</string>
+    <string name="mother_and_kids">Mother and Kids</string>
+    <string name="shoes">Shoes</string>
+    <string name="sports">Sports</string>
+    <string name="tools">Tools</string>
+    <string name="toys">Toys</string>
+    <string name="underwear_and_sleepwears">Underwear and Sleepwears</string>
+    <string name="watches">Watches</string>
+</resources>

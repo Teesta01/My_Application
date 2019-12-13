@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/top_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:fontFamily="@font/lobster_two"
+        android:textColor="@color/bottom_orange"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/top_view"
+        android:id="@+id/welcome_txt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="if seller?"
+        android:textSize="20dp"
+        android:layout_below="@id/welcome_txt"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/ques"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here."
+        android:textSize="20dp"
+        android:textColor="@color/bottom_orange"
+        android:layout_below="@+id/welcome_txt"
+        android:layout_toEndOf="@+id/ques"
+        android:layout_toRightOf="@+id/ques"
+        android:textStyle="bold"
+        android:id="@+id/want_to_seller_txt"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teesta_icon"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up or log in"
+        style="@style/Widget.Button"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/signup__login_btn"
+        android:layout_above="@id/empty_space"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/empty_space"
+        />
+
+</RelativeLayout>

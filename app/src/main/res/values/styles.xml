@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#000</item>
+    </style>
+    <style name="Widget.Button" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="backgroundTint">@color/bottom_orange</item>
+    </style>
+    <style name="Widget.Button2" parent="Widget.MaterialComponents.Button.OutlinedButton">
+<!--        <item name="backgroundTint">@color/bottom_orange</item>-->
+    </style>
+
+
+
+</resources>
